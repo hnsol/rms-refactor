@@ -1,6 +1,8 @@
 ---
 marp: true
 paginate: true
+style: |
+  section { font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif; }
 ---
 
 # RMSミニ全体図（問題解決モデル）
