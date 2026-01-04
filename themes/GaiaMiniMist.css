@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*!
+ * Marp / Marpit Gaia theme.
+ * Custom-Theme GaiaMiniMist
+ *
+ * @theme GaiaMiniMist
+ * @author hann-solo
+ *
+ * @auto-scaling true
+ * @size 16:9 1280p
+ */
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Noto+Serif+JP:wght@500;600;700&display=swap");
+
+/* =========================
+   Theme: GaiaMiniMist
+   ========================= */
+
+:root {
+  --color-bg: #f6f1e7;
+  --color-fg: #2e2a2a;
+  --color-muted: #6e6a69;
+  --color-accent: #4c4f69;
+  --color-accent-2: #8c8fa1;
+  --color-line: rgba(46, 42, 42, 0.12);
+
+  --color-code-bg: rgba(46, 42, 42, 0.06);
+  --color-quote: rgba(76, 79, 105, 0.12);
+
+  --shadow-soft: 0 10px 24px rgba(46, 42, 42, 0.10);
+  --radius: 18px;
+
+  --font-sans: "Noto Sans CJK JP", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  --font-serif: "Noto Serif CJK JP", "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --base-font-size: 38px;
+  --h1-size: 62px;
+  --h2-size: 48px;
+  --h3-size: 40px;
+  --line-height: 1.35;
+
+  --slide-padding: 56px;
+}
+
+section {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-size: var(--base-font-size);
+  line-height: var(--line-height);
+  padding: var(--slide-padding);
+}
+
+section::after {
+  color: var(--color-muted);
+  font-size: 22px;
+}
+
+h1, h2, h3 {
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  margin: 0 0 0.5em 0;
+}
+
+h1 {
+  font-size: var(--h1-size);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: var(--h2-size);
+  font-weight: 800;
+}
+
+h3 {
+  font-size: var(--h3-size);
+  font-weight: 700;
+}
+
+p {
+  margin: 0.4em 0;
+}
+
+strong {
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+ul, ol {
+  margin: 0.5em 0 0.5em 0.9em;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid var(--color-line);
+  margin: 0.9em 0;
+}
+
+blockquote {
+  border-left: 10px solid var(--color-accent-2);
+  padding: 0.5em 0.9em;
+  margin: 0.7em 0;
+  background: var(--color-quote);
+  border-radius: var(--radius);
+}
+
+code {
+  font-family: var(--font-mono);
+  background: var(--color-code-bg);
+  padding: 0.1em 0.25em;
+  border-radius: 10px;
+  font-size: 0.95em;
+}
+
+pre {
+  background: var(--color-code-bg);
+  padding: 0.7em 0.9em;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  overflow: auto;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.9em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+th, td {
+  border-bottom: 2px solid var(--color-line);
+  padding: 0.35em 0.5em;
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+  color: var(--color-accent);
+  font-weight: 800;
+}
+
+img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+
+section.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.title h1 {
+  margin-bottom: 0.25em;
+}
+
+section.title p {
+  color: var(--color-muted);
+  font-size: 0.9em;
+}
+
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.lead h1 {
+  font-size: calc(var(--h1-size) + 8px);
+}
+
+section.lead p {
+  font-size: 1.05em;
+  color: var(--color-muted);
+}
