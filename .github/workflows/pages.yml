@@ -38,8 +38,8 @@ jobs:
       - name: Build slides
         run: |
           mkdir -p public
-          marp slides/rms-mini.md --html -o public/index.html
-          marp slides/rms-mini.md --pdf -o public/rms-mini.pdf
+          marp slides/rms-mini.md --theme-set ./themes --html -o public/index.html
+          marp slides/rms-mini.md --theme-set ./themes --pdf -o public/rms-mini.pdf
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

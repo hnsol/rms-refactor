@@ -1,6 +1,7 @@
 ---
 marp: true
 paginate: true
+theme: GaiaMiniMist
 style: |
   section { font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif; }
 ---
