@@ -1,5 +1,7 @@
 # RMS: Relationship Management Skills (Living Edition) / RMS 継続改訂版
 
+持続可能で良好な関係を築き、ともに歩む姿勢を土台にマネジメントするスキル体系。
+
 ![260104_readme_header_rev02](https://github.com/user-attachments/assets/782e4e09-6933-4532-91bf-3be0c2bd3308)
 
 ### Relationship Management Skills: A Modern Guide
