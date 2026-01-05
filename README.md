@@ -1,4 +1,4 @@
-# RMS-Refactor
+# RMS: Relationship Management Skills (Living Edition) / RMS 継続改訂版
 
 ![260104_readme_header_rev02](https://github.com/user-attachments/assets/782e4e09-6933-4532-91bf-3be0c2bd3308)
 
