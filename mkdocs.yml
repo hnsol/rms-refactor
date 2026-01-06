@@ -25,10 +25,10 @@ nav:
           - はじめに: core/standard/index.md
 
           - RMSの3つの目的（作成中）:
-              - RMSの目指す世界: core/standard/foundations/index.md
-              - マネジャーが役割を果たす: core/standard/foundations/manager-role.md
-              - 問題を解決する: core/standard/foundations/problem-solving.md
-              - 支配ではなく協働する: core/standard/foundations/collaboration.md
+              - RMSの目指す世界: core/standard/purpose/index.md
+              - マネジャーが役割を果たす: core/standard/purpose/manager-role.md
+              - 問題を解決する: core/standard/purpose/problem-solving.md
+              - 支配ではなく協働する: core/standard/purpose/collaboration.md
 
           - 6つのフェーズ（作成中）:
               - フェーズとスキル: core/standard/phases/index.md

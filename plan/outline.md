@@ -24,14 +24,14 @@
 ## 目次（案）
 - compact/index.md（要約・最短導線）
 - standard/index.md（全体ガイド）
-- standard/foundations/（RMSの目的）
+- standard/purpose/（RMSの目的）
 - standard/phases/（6フェーズ: 目次は確定）
 - standard/techniques/（テクニック: 方向性は維持しつつ項目は調整）
 
 ## 章ごとの1行ゴール
 - compact: RMS全体像を1枚で把握できる。
 - standard/index: coreの読み方・関係性を理解できる。
-- foundations: RMSの前提と立場を共有できる。
+- purpose: RMSの前提と立場を共有できる。
 - phases: 各フェーズの「何を達成するか」が分かる（6フェーズ構成は固定）。
 - techniques: フェーズに紐づく具体手段が分かる（項目は入れ替え前提）。
 
