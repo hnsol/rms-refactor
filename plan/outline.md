@@ -24,7 +24,7 @@
 ## 目次（案）
 - compact/index.md（要約・最短導線）
 - standard/index.md（全体ガイド）
-- standard/foundations/（前提と土台）
+- standard/foundations/（RMSの目的）
 - standard/phases/（6フェーズ: 目次は確定）
 - standard/techniques/（テクニック: 方向性は維持しつつ項目は調整）
 

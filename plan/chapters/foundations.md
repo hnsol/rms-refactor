@@ -1,13 +1,13 @@
 # standard/foundations/
 
 ## 狙い
-- RMSの立場と前提（関係構築の姿勢）を共有する。
+- RMSの大目的に沿って、目的を共有する。
 
 ## ここでやること
-- 3つの原則（index.md）を明文化する。
-- マネージャの役割（manager-role.md）を示す。
-- 問題解決の立て方（problem-solving.md）を示す。
-- 支配ではなく協働（collaboration.md）を位置づける。
+- 3つの目的（index.md）を明文化する。
+- マネジャーが役割を果たす（manager-role.md）
+- 問題を解決する（problem-solving.md）
+- 支配ではなく協働する（collaboration.md）
 
 ## やらないこと
 - フェーズ手順の詳細化。
