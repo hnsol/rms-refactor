@@ -1,4 +1,4 @@
-# standard/foundations/
+# standard/purpose/
 
 ## 狙い
 - RMSの大目的に沿って、目的を共有する。
