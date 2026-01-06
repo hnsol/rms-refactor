@@ -1,0 +1,31 @@
+RMS:
+  short: RMS
+  long: Relationship Management Skills
+  description: 持続可能で良好な関係を築き、ともに歩む姿勢を土台にしたマネジメント体系。
+
+フェーズ:
+  description: 問題解決を進める局面。直線の手順ではなく往復する。
+
+スキル:
+  description: 各フェーズを成立させる判断と介入の能力。
+
+テクニック:
+  description: スキルを実行に落とす具体手段（型・手順・ツール）。
+
+ポジショニング:
+  description: 目線あわせ。味方として立ち位置と目的をそろえる。
+
+ディスカバリング:
+  description: 真因特定。問いを設計し、仮説検証する。
+
+ビルディング:
+  description: 認識合わせ。事実と解釈を分け、前提をそろえる。
+
+プレゼンティング:
+  description: 解決策並べ。選択肢を構造化し比較軸を固定する。
+
+セキュアリング:
+  description: 行動の合意。Owner・期限・完了条件を確定する。
+
+リゾルビング:
+  description: 懸念ほぐし。懸念の種類を切り分け、合意障害を除く。
