@@ -5,8 +5,8 @@
 
 ## ここでやること
 - 3つの原則（index.md）を明文化する。
-- 問題解決の立て方（problem-solving.md）を示す。
 - マネージャの役割（manager-role.md）を示す。
+- 問題解決の立て方（problem-solving.md）を示す。
 - 支配ではなく協働（collaboration.md）を位置づける。
 
 ## やらないこと
